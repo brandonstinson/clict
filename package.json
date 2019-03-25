@@ -1,0 +1,33 @@
+{
+  "name": "clict",
+  "version": "1.0.0",
+  "description": "CLI Countdown Timer",
+  "author": "Brandon Stinson <iamthequestion@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonstinson/clict.git"
+  },
+  "license": "MIT",
+  "bin": "./dist/clict.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "ink": "^2.0.6",
+    "ink-big-text": "^1.0.1",
+    "ink-box": "^1.0.0",
+    "ink-gradient": "^1.0.0",
+    "ink-text-input": "^3.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

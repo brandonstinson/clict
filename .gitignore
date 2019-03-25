@@ -1,0 +1,14 @@
+# node modules
+node_modules/
+
+# logs
+*.log
+
+# env files
+*.env
+
+# OS files
+.DS_Store
+
+# TODOs
+TODO.md
